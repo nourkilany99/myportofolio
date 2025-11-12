@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+.s1{
+    width: 100%;
+    height: 800px;
+    background-image: url(../Img/heroimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.line_div{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    background-image: url(../Img/lines_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_hero{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgba(127, 255, 212, 0.185); */
+    font-family: haas;
+    height: 500px;
+    justify-content: end;
+    margin-top: 12%;
+    color: var(--bck_color);
+}
+
+.p_hero_1{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    color: var(--main_color);
+    margin-bottom: 0.5%;
+    /* background-color: rgba(0, 255, 255, 0.279); */
+}
+
+.ui_p_hero{
+    margin-right: 9%;
+    font-size: var(--font_20);
+    font-family: haas_light;
+}
+
+.p_hero_2{
+    width: 100%;
+    height: 58%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    color: var(--main_color);
+    font-family: haas_light;
+}
+
+.name_p_hero{
+    margin-left: 12.8%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 40px;
+    background-color:#49494a72;
+    padding: 14.5% 11.2% 2% 2%;
+    font-family: haas_light;
+}
+
+.p_hero_3{
+    width: 70%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main_color);
+    gap: 10%;
+    margin-right: -10%;
+    font-family: haas_light;
+    /* background-color: rgba(0, 255, 255, 0.279); */
+}
+
+.line_p_hero{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: var(--font_20);
+}
+
+
+
+
+.s2{
+    width: 80%;
+    padding: 10% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-family: haas_light;
+}
+
+.s2_d1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.about_s2_p{
+    font-size: var(--font0);
+    color: var(--sec_txt_colot);
+}
+
+.name_s2_p{
+    font-size: 82px;
+    color: var(--txt_color);
+    line-height: 120%;
+    padding: 5% 0;
+}
+
+.line_under_name{
+    margin-left: 1%;
+    height: 20vh;
+}
+
+.p_about_hero{
+    padding: 5% 0;
+    line-height: 220%;
+    font-size: var(--font0);
+}
+
+.s2_d2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.about_s2_p2{
+    font-size: var(--font0);
+}
+
+
+.img_des_about{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 53%;
+    gap: 35px;
+}
+
+.hint_s2_p2{
+    font-family: haas_light;
+}
+
+.img_hnd{
+    width: 100%;
+}
+
+
+.s3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: var(--main_color) solid 0.5px;
+    font-family: haas_light;
+}
+
+.s3_d1{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border: var(--txt_color) solid 0.5px;
+    height: 45vh;
+    overflow: hidden;
+}
+
+
+.chili_img1_div{
+    width: 25%;
+}
+
+.chili1_img{
+    width: 25%;
+
+}
+
+.p1_chili_d1{
+    padding: 2% 3% ;
+    font-size: var(--font0);
+    line-height: 140%;
+    color: var(--main_color);
+    width: 100%;
+}
+
+.chili1_img2{
+    width: 25%;
+}
+
+.s3_d2{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border: var(--txt_color_light) solid 0.5px;
+    height: 45vh;
+    overflow: hidden;
+}
+
+.chili_extra_div{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.chili1_img4_div1{
+    width: 40%;
+    overflow: hidden;
+}
+
+.chili1_img3{
+    width: 25%;
+    
+}
+
+
+.chili1_img4_div{
+    width: 25%;
+    overflow: hidden;
+}
+
+.chili1_img4{
+    width: 105%;
+}
+
+.last_chili_btn_d{
+    width: 23.4%;
+    height: 100%;
+    border-left: var(--txt_color) solid 0.5px;
+    margin-left: 25%;
+    color: var(--sec_txt_colot);
+    font-family: haas_light;
+    font-size: var(--font0);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding:2% 0 0% 1%
+}
+
+
+.s4{
+    width: 100%;
+    height: 100px;
+    border: var(--txt_color) solid 0.5px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    font-family: haas_light;
+    margin:10% 0;
+}
+
+.hr_line{
+    height: 25%;
+}
+
+
+
+.s5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: haas_light;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+
+
+.s6{
+    width: 100%;
+    height: 800px;
+    background-image: url(../Img/contact_section_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: haas_light;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.form_contact_d{
+width: 30%;
+display: flex;
+align-items: start;
+flex-direction: column;
+justify-content: space-around;
+gap: 15%;
+background-color: #fef5eaa5;
+margin-bottom: -20%;
+
+}
+
+.cntct{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 90%;
+    background-color: #6c2a9bc1;
+    color: var(--bck_color);
+    font-size: 24px;
+    padding: 8% 5% 5% 5%;
+}
+
+.cntct_1{
+    width: 90%;
+    padding: 8% 5% 2% 5%;
+    border: solid 0.5px #49494A;
+}

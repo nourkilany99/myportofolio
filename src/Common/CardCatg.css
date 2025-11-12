@@ -1,0 +1,26 @@
+.div_card_categ{
+    width: 20%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.card_catg_img{
+    width: 100%;
+    height: 100%;
+}
+
+.card_cntnt_all{
+    background-color: #3333335e;
+    padding: 5% 10%;
+    position: absolute;
+    margin: 2%;
+}
+
+.p_catg{
+    color: antiquewhite;
+}
