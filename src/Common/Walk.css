@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+.walk{
+    width: 80%;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2%;
+    font-family: haas_light;
+}

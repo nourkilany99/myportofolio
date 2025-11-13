@@ -47,3 +47,26 @@ body{
     gap: 2%;
     font-family: haas_light;
 }
+
+.walk_div{
+    width: 90%;
+    padding: 2% 5% 0 5%;
+}
+
+.s2_web{
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s3_web{
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 5%;
+}

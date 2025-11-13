@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+.d1_s3_wb{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: start;
+    justify-content: start;
+    font-family: haas_light;
+    position: sticky;
+}
+
+.h_all_wb{
+    color: var(--main_color2);
+    font-size: 24px;
+    font-family: haas;
+    padding-bottom: 5%;
+}
+
+.d_btns_wb_filtr{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 3%;
+    gap: 10%;
+}
+
+.extra_filter_div{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: var(--main_color3);
+    font-size: 20px;
+    gap: 20px;
+}
+
+.my_wrk_p{
+    font-family: haas;
+    font-size: 22px;
+}
+
+.d2_s3_wb{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.d2_s3_d1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    overflow: hidden;
+}
+
+.div_all_wb_px1{
+    width: 50%;
+    overflow: hidden;
+    height: 430px;
+}
+
+.all_wb_px1{
+    width: 100%;
+}
+
+.all_wb_px3{
+    width: 100%;
+    padding: 3%;
+}

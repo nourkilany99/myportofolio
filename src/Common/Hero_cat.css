@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas2;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-75Bold-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+.s1_web{
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s1_d1_web{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 5%;
+}
+
+.hero_web_page{
+font-family: haas2;
+color: var(--txt_color);
+font-size: 72px;
+padding-left: 2%;
+}
+
+.s1_d2_web{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-family: haas2;
+    color: var(--txt_color);
+    font-size: 72px;
+    margin-top: 2%;
+}
+
+.extra_mini_pix{
+    width: 200px;
+
+}
+.mini_pix{
+width: 100%;
+}
+
+.extra2_mini_pix{
+    width: 25%;
+}
+
+.vector_hero_cat{
+    float: left;
+    position: absolute;
+    left: 0;
+    margin-top: 20%;
+}
