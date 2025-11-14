@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+
+/* .graph2_end_cat{
+    width: 50%;
+    height: 600px;
+    background-image: url(../Img/graph2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main_color);
+    font-family: haas_light;
+    font-size: 38px;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    color: #49494a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+} */
+
+.div_explore{
+    width: 40%;
+    height: 800px;
+    overflow: hidden;
+    
+}
+
+.img_explore1{
+    width: 100%;
+    position: relative;
+}
+
+.img_explore1:hover{
+    width: 120%;
+    position: relative;
+    transition-duration: 0.5s;
+}
+
+.graph_end_cat{
+    font-family: haas_light;
+    font-size: 24px;
+    padding: 2% 5%;
+    background-color: #6C2A9B;
+    color: var(--bck_color);
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}
+
+.graph2_end_cat{
+    font-family: haas_light;
+    font-size: 24px;
+    padding: 2% 5%;
+    background-color: #6C2A9B;
+    color: var(--bck_color);
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}

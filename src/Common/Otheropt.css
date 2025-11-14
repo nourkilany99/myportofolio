@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+.s3_other_d1{
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0 1% 0;
+}
+
+.web_h_other{
+    font-family: haas;
+    color: #49494A;
+    font-size: 32px;
+}
+
+.s3_other_d2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.other_prj1{
+    width: 25%;
+}
+
+.other_prj2{
+    width: 28%;
+}
+
+.other_prj3{
+    width: 25%;
+}
+
+.other_info_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 3% 0;
+}
+
+.img_arr_vctr{
+    width: 3%;
+}
+
+.infoo_d{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-direction: column;
+    text-align: center;
+    color: #49494A;
+    font-family: haas_light;
+}
+
+.p1_infoo{
+    font-family: haas;
+    font-size: 24px;
+    padding: 3% 0;
+}
+
+.p2_infoo{
+    font-size: 20px;
+    padding: 10% 0;
+    font-family: haas_light;
+}
+
+.infoo_btn{
+    padding: 2% 8%;
+    border: solid 0.5px #49494A;
+    font-family: haas_light;
+}

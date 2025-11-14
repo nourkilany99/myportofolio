@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+.s1_det_chil{
+    width: 80%;
+    padding: 3% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: haas_light;
+}
+
+.h1_s1_det_chil{
+    font-size: 32px;
+    font-family: haas;
+    color: var(--main_color3);
+}
+
+.div_hero_chil_det{
+    width: 100%;
+}
+
+.div2_hero_chil_det{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+    color: #49494abd;
+}
+
+.hero_chil_img_d{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_chil_img_div_extra{
+    width: 95%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero_chil_img{
+    width: 100%;
+}
