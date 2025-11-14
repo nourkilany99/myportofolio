@@ -21,8 +21,14 @@ import phone_icon from '../Img/phone_icon.png';
 import web_icon from '../Img/web_icon.png';
 import Footer from '../Components/Footer';
 import {Link} from 'react-router-dom';
+import Texty from "../animation/Texty";
+import ScrollReveal from '../animation/Reveal';
+import ScrollVelocity from '../animation/VelocityText';
+import PixelTransition from '../animation/PixelTransition';
+import '../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf'
 
 
+const velocity = 3;
 
 const Home = () => {
     return ( <>
@@ -62,9 +68,30 @@ const Home = () => {
 
             <div className="s2_d1">
             <p className="about_s2_p">About</p>
-            <p className="name_s2_p">Nour<br/>Elkilany</p>
+
+            <div className="container">
+            <Texty text="Nour Elkilany!" className="text-4xl font-bold text-white name_s2_p" delay={100} duration={0.2} splitType="chars"/>
+            </div>
+            {/* <p className="name_s2_p">Nour<br/>Elkilany</p> */}
             <img src={line_about} alt='line_about' className="line_under_name" />
-            <p className="p_about_hero">I’m a multidisciplinary designer with a background in fashion and a focus on UI/UX and frontend design. My approach combines structure and style — creating digital experiences that feel minimal, modern, and human. Beyond interfaces, I explore 3D modeling, videography, and visual storytelling to bring ideas to life with simplicity and depth.</p>
+
+
+            <ScrollReveal
+            baseOpacity={0}
+            enableBlur={true}
+            baseRotation={5}
+            blurStrength={10}
+            >
+            I’m a multidisciplinary designer with a background 
+            in fashion and a focus on UI/UX and frontend design.
+            My approach combines structure and style — creating 
+            digital experiences that feel minimal, modern, and 
+            human. Beyond interfaces, I explore 3D modeling, 
+            videography, and visual storytelling to bring ideas
+            to life with simplicity and depth.
+            </ScrollReveal>
+
+            {/* <p className="p_about_hero">I’m a multidisciplinary designer with a background in fashion and a focus on UI/UX and frontend design. My approach combines structure and style — creating digital experiences that feel minimal, modern, and human. Beyond interfaces, I explore 3D modeling, videography, and visual storytelling to bring ideas to life with simplicity and depth.</p> */}
             </div>
 
             <div className="s2_d2">
@@ -111,22 +138,46 @@ const Home = () => {
         </div>
         </section>
 
-        <section className="s4">
 
-            <p>Graphic designer</p>
-            <hr className="hr_line" />
-            <p>3D modeling </p>
-            <hr className="hr_line" />
-            <p>video editing</p>
-            <hr className="hr_line" />
-            <p>UI/UX designer</p>
-            <hr className="hr_line" />
-            <p>Photography</p>
-
-        </section>
+        <div className='s4_new'>
+            <ScrollVelocity
+        
+            texts={['Graphic designer *', 'UI/UX designer*']} 
+            velocity={velocity} 
+            className="custom-scroll-text "
+            />
+        </div>
 
         <section className='s5'>
-            <Link to="/Graphic"><CardCatg title1='Graphic design' img={Borio} /></Link>
+
+        <PixelTransition
+        firstContent={
+        <img
+        src={Borio}
+        alt="borio_graphic"
+        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
+        }
+        secondContent={
+        <div
+        style={{
+        width: "100%",
+        height: "100%",
+        display: "grid",
+        placeItems: "center",
+        backgroundColor: "#6C2A9B",
+        }}
+        >
+        <p style={{ fontWeight: 200, fontSize: "2rem", color: "#FEF5EA",textAlign:"center",fontFamily: "haas_font" }}>Graphic design</p>
+        </div>
+        }
+        gridSize={12}
+        pixelColor='#FEF5EA'
+        once={false}
+        animationStepDuration={0.2}
+        className="custom-pixel-card"
+        />
+            {/* <Link to="/Graphic"><CardCatg title1='Graphic design' img={Borio} /></Link> */}
             <Link to="/Graphic"><CardCatg title1='UI/UX design' img={ui_img} /></Link>
             <Link to="/Graphic"><CardCatg title1='Motion graphic' img={motion_img} /></Link>
             <Link to="/Graphic"><CardCatg title1='Photography' img={photo_img} /></Link>
