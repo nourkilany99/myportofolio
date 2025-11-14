@@ -16,7 +16,8 @@ import graph5 from '../Img/graph5.jpg';
 import graph6 from '../Img/graph6.jpg';
 import graph7 from '../Img/graph7.jpg';
 import Footer from '../Components/Footer'
-
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 
 

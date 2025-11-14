@@ -150,6 +150,7 @@ const Home = () => {
 
         <section className='s5'>
 
+        <Link to='/Graphic' >
         <PixelTransition
         firstContent={
         <img
@@ -176,7 +177,7 @@ const Home = () => {
         once={false}
         animationStepDuration={0.2}
         className="custom-pixel-card"
-        />
+        /></Link>
             {/* <Link to="/Graphic"><CardCatg title1='Graphic design' img={Borio} /></Link> */}
             <Link to="/Graphic"><CardCatg title1='UI/UX design' img={ui_img} /></Link>
             <Link to="/Graphic"><CardCatg title1='Motion graphic' img={motion_img} /></Link>
