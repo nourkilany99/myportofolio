@@ -1,6 +1,7 @@
 import React from 'react';
 import './Lastproject.css';
 import lineabout from '../Img/line about name.png';
+import {Link} from 'react-router-dom';
 
 
 
@@ -24,7 +25,7 @@ const Lastproject = (props) => {
             <p className="date_w1">2024</p>
             <img src={props.img3} alt='vector43' className="line_rotate" />
             <p className="p_w1">{props.title3}</p>
-            <p className="btn_exp_wb">Explore project</p>
+            <Link to="ProjectDetails" ><p className="btn_exp_wb">Explore project</p></Link>
         </div>
         
        

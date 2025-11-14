@@ -11,7 +11,7 @@ const RoutingApp = () => {
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/Graphic' element={<Graphic />} />
-            <Route path='/Graphic/ProjectDetails' element={<ProjectDetails />} />
+            <Route path='/Graphic/:id' element={<ProjectDetails />} />
         </Routes>
         </BrowserRouter>
         

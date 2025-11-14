@@ -20,6 +20,7 @@ import msg_icon from '../Img/msg_icon.png';
 import phone_icon from '../Img/phone_icon.png';
 import web_icon from '../Img/web_icon.png';
 import Footer from '../Components/Footer';
+import {Link} from 'react-router-dom';
 
 
 
@@ -125,12 +126,11 @@ const Home = () => {
         </section>
 
         <section className='s5'>
-
-            <CardCatg title1='Graphic design' img={Borio} />
-            <CardCatg title1='UI/UX design' img={ui_img} />
-            <CardCatg title1='Motion graphic' img={motion_img} />
-            <CardCatg title1='Photography' img={photo_img} />
-            <CardCatg title1='Videography' img={video_img} />
+            <Link to="/Graphic"><CardCatg title1='Graphic design' img={Borio} /></Link>
+            <Link to="/Graphic"><CardCatg title1='UI/UX design' img={ui_img} /></Link>
+            <Link to="/Graphic"><CardCatg title1='Motion graphic' img={motion_img} /></Link>
+            <Link to="/Graphic"><CardCatg title1='Photography' img={photo_img} /></Link>
+            <Link to="/Graphic"><CardCatg title1='Videography' img={video_img} /></Link>
         </section>
 
         <section className="s6">
