@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+@font-face {
+  font-family: decor;
+  src: url(../font/Snell\ Roundhand/snellroundhand_bold.otf)
+}
+
+
+.all_contact_s{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.socials_sec{
+    width: 40%;
+    padding:3% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.insta_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-family: haas;
+    color: var(--bck_color);
+    background-color: #B882DF;
+    padding: 3% 0;
+    border-radius: 10px;
+}
+
+.link_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-family: haas;
+    color: var(--bck_color);
+    background-color: #0A66C2;
+    padding: 3% 0;
+    border-radius: 10px;
+}
+
+.be_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-family: haas;
+    color: var(--bck_color);
+    background-color: #9bb9e3;
+    padding: 3% 0;
+    border-radius: 10px;
+}
+
+.info_add_f{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 30%;
+    font-family: haas;
+    color: var(--txt_color);
+    gap: 5px;
+}
+
+.contact_hr{
+    border: solid 0.1px  #2d2d2e48;
+    height: 400px;
+    margin-top: 3%;
+}
+
+.map_div{
+    width: 90%;
+    padding: 0 5%;
+    margin-bottom: 3%;
+}
+
+.map{
+width: 100%;
+}
