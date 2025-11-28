@@ -3,9 +3,14 @@ import Lenis from 'lenis';
 import './ScrollStack.css';
 
 export const ScrollStackItem = ({ children, itemClassName = '' }) => (
-  <div className={`scroll-stack-card ${itemClassName}`.trim()}>{children}</div>
+  <div className={`scroll-stack-card ${itemClassName}`.trim()}>
+    <div className="hover-wrapper">
+      <div className="card-inner">
+        {children}
+      </div>
+    </div>
+  </div>
 );
-
 
 const ScrollStack = ({
   children,

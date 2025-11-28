@@ -64,7 +64,7 @@ const Portfolio = () => {
 
         <ScrollStackItem >
             <div className='ux_cntnt_folder'>
-            <h2 className='ux_card'>UI / UX <br/>DESIGNS</h2>
+            <h2 className='ux_card'>VIDEOGRAPHY</h2>
             <div>
             <hr className='hr_card'></hr>
             </div>
@@ -77,7 +77,7 @@ const Portfolio = () => {
 
         <ScrollStackItem >
             <div className='ux_cntnt_folder'>
-            <h2 className='ux_card'>UI / UX <br/>DESIGNS</h2>
+            <h2 className='ux_card'>PHOTOGRAPHY</h2>
             <div>
             <hr className='hr_card'></hr>
             </div>
