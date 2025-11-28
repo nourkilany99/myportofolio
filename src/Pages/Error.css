@@ -1,0 +1,50 @@
+.logoerror{
+    width: 20%;
+}
+
+.s_lost{
+    width: 90%;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.lost_h{
+    padding-top: 2%;
+    font-size: 70px;
+    font-family:fantasy;
+    font-weight: 800;
+    color: black;
+}
+
+.errorimg{
+    width: 35%;
+}
+
+.lost_p{
+    padding-top: 5%;
+    font-size: 70px;
+    color: rgb(93, 92, 92);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.btn_home{
+    border: none;
+    padding: 1% 3%;
+    border-radius: 5px;
+    background-color: rgb(208, 182, 142);
+    color: rgb(47, 21, 3);
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.errorSec{
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

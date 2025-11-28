@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.512eb2dd.css",
+    "main.js": "/static/js/main.7c24af16.js",
+    "static/media/snellroundhand_bold.otf": "/static/media/snellroundhand_bold.f0dd921b42083fb9e652.otf",
+    "static/media/heroimg.png": "/static/media/heroimg.995945605a12c88cdff7.png",
+    "static/media/another_prj2.png": "/static/media/another_prj2.860258a8c8a15ee11491.png",
+    "static/media/hand hero.png": "/static/media/hand hero.94469d6156915504a07f.png",
+    "static/media/contact_section_img.png": "/static/media/contact_section_img.d8f402aa96111bdb65ff.png",
+    "static/media/chilis1_mock2.png": "/static/media/chilis1_mock2.cc74524be30015c222e7.png",
+    "static/media/motion graphic .png": "/static/media/motion graphic .2cc6bca3a7b3ffafc753.png",
+    "static/media/chilis1_mock4.png": "/static/media/chilis1_mock4.65a20305e0e9a5deb323.png",
+    "static/media/graph7.jpg": "/static/media/graph7.c5e39496e483302555c2.jpg",
+    "static/media/chilis1_mock3.png": "/static/media/chilis1_mock3.a425daf64d2c175f60ac.png",
+    "static/media/chilis1_mock.png": "/static/media/chilis1_mock.addaa1fbce58b0dc9fe8.png",
+    "static/media/borio graphic.png": "/static/media/borio graphic.b78f189f5d15690a9396.png",
+    "static/media/graph2.jpg": "/static/media/graph2.65e5ff18ad53a935b1cd.jpg",
+    "static/media/graph6.jpg": "/static/media/graph6.a9c1311c1332775c6505.jpg",
+    "static/media/orange.jpg": "/static/media/orange.1ccd03ed7e70cb1b6544.jpg",
+    "static/media/orange2.jpg": "/static/media/orange2.64d5a304d47285dcc516.jpg",
+    "static/media/jpg": "/static/media/216025093c90c67e30b86cf5ec544ee0.d57c7b1896434146a199.jpg",
+    "static/media/lostimg.png": "/static/media/lostimg.c8ab7639b5314d72488c.png",
+    "static/media/graph4.jpg": "/static/media/graph4.6beb9c059682e96dbe8b.jpg",
+    "static/media/graph5.jpg": "/static/media/graph5.1ed32084486316621a1c.jpg",
+    "static/media/ui ux mock.png": "/static/media/ui ux mock.1724940feba2b1135d09.png",
+    "static/media/graph3.jpg": "/static/media/graph3.a1ece815575a84c568f3.jpg",
+    "static/media/photography.png": "/static/media/photography.1c9da5df062bc7b3393f.png",
+    "static/media/NeueHaasGrotDispRound-75Bold-Trial.otf": "/static/media/NeueHaasGrotDispRound-75Bold-Trial.a562049a4bf17e647689.otf",
+    "static/media/NeueHaasGrotDispRound-45Light-Trial.otf": "/static/media/NeueHaasGrotDispRound-45Light-Trial.dc4d12678b2fe122f7e0.otf",
+    "static/media/NeueHaasGrotDispRound-55Roman-Trial.otf": "/static/media/NeueHaasGrotDispRound-55Roman-Trial.ffa9b78df36abf305db3.otf",
+    "static/media/graph1.jpg": "/static/media/graph1.1cbb80ffb7418012c315.jpg",
+    "static/media/another_prj1.png": "/static/media/another_prj1.5228dcd303db9c295b19.png",
+    "static/media/logoAll.png": "/static/media/logoAll.f7ec9ee97d9808e3dd2e.png",
+    "index.html": "/index.html",
+    "main.512eb2dd.css.map": "/static/css/main.512eb2dd.css.map",
+    "main.7c24af16.js.map": "/static/js/main.7c24af16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.512eb2dd.css",
+    "static/js/main.7c24af16.js"
+  ]
+}

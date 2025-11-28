@@ -312,6 +312,7 @@ body{
     align-items: center;
     font-family: haas_light;
     margin:20% 0;
+    overflow: hidden;
 }
 
 .hr_line{

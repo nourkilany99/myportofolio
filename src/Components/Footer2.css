@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+
+
+@font-face {
+  font-family: decor;
+  src: url(../font/Snell\ Roundhand/snellroundhand_bold.otf)
+}
+
+
+.footerno{
+width: 90%;
+padding: 3% 5%;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+background-color: #968a7e;
+color: #FEF5EA;
+font-family: haas_light;
+margin-top: 0;
+}
+
+.name_footer_d{
+    font-family: decor;
+    font-size: 105px;
+    border-bottom: solid 0.5px #fef5eabc;
+}
+
+.d_all_fot_cntn{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.cntn_f_1{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 5%;
+    gap: 35px;
+    border-right: solid 0.5px #fef5ea8b;
+    height: 250px;
+}
+
+.f_email_d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.emil_icn{
+    width: 15%;
+}
+.txt_mil_p{
+    font-size: 20px;
+}
+
+.ins_icn{
+    width: 18%;
+}
+
+.cntn_f_2{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    gap: 35px;
+    height: 250px;
+    padding-left: 3%;
+}
+
+.line_foot{
+    width: 100%;
+    border-top: solid 0.5px #fef5ea87;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}

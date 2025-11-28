@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+@font-face {
+  font-family: decor;
+  src: url(../font/Snell\ Roundhand/snellroundhand_bold.otf)
+}
+
+
+.div1_port{
+    width: 80%;
+    padding: 3% 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hr2{
+    border: none;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.251);
+    border-radius: 3px;
+    width: 100%;
+}
+
+.line1_div{
+    width: 84%;
+    padding: 0 8%;
+}
+
+.port_page_h{
+    font-family: haas;
+    font-size: 32px;
+    color: var(--txt_color);
+}
+
+.port_page_date{
+    font-family: haas_light;
+    font-size: 20px;
+    color: var(--txt_color);
+}
+
+.ux_card{
+    font-family: decor;
+    font-size: 42px;
+    color: var(--txt_color);
+}
+
+.ux_cntnt_folder{
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-top: 2%;
+    gap: 5%;
+    color: var(--bck_color);
+
+}
+
+.hr_card{
+    border: solid 0.2px #2d2d2e;
+    height: 13vh;
+    
+}
+
+.date_info_card{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 10vh;
+    font-family: haas_light;
+    color: var(--txt_color);
+}
+
+.card-one{
+    background-image: url(../Img/folder1.png);
+}

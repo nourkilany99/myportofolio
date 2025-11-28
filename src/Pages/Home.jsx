@@ -25,13 +25,23 @@ import Texty from "../animation/Texty";
 import ScrollReveal from '../animation/Reveal';
 import ScrollVelocity from '../animation/VelocityText';
 import PixelTransition from '../animation/PixelTransition';
-import '../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf'
+import '../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf';
+import icon from '../Img/logo.png';
+import { Helmet } from 'react-helmet';
 
 
 const velocity = 3;
 
 const Home = () => {
     return ( <>
+
+    <Helmet>
+      <title>Nour's portfolio Home</title>
+      <meta name="description" content="Nour's portfolio designer specializes in UI/UX designs" />
+      <link rel="icon" href={icon} />
+    </Helmet>
+
+
         <section className='s1'>
          <Nav />
 

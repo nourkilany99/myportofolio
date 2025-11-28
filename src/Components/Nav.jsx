@@ -12,7 +12,7 @@ const Nav = () => {
 
             <div className='nav_cntnt_div'>
                 <p>Portfolio</p>
-                <p>UI/UX blog</p>
+                <p>Blog</p>
                 <p>About me</p>
                 <p>Services</p>
             </div>
