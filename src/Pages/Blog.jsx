@@ -2,7 +2,10 @@ import React from 'react';
 import './Blog.css';
 import Nav from '../Components/Nav';
 import Line from '../Common/Line';
-import HeroNSub from '../Common/HeroN&Sub'
+import HeroNSub from '../Common/HeroN&Sub';
+import Footer from '../Components/Footer';
+
+
 
 
 const Blog = () => {
@@ -19,6 +22,45 @@ const Blog = () => {
         <button className='btn_blog'>Favorite quote</button>
 
     </section>
+    <Line />
+    
+    <div className='blog1_card'>
+        <div className='blog1_card_cntn'>
+            <p className='date_card_blog'>20 Dec 2024</p>
+            <h1>What are the UI/UX Problems?</h1>
+        </div>
+    </div>
+
+    <Line />
+
+    <div className='two_blog_d'>
+
+        <div className='blog2_card'>
+        <div className='blog1_card_cntn'>
+            <p className='date_card_blog'>20 Dec 2024</p>
+            <h1>Sides of the UI/UX</h1>
+        </div>
+        </div>
+
+        <div className='blog3_card'>
+        <div className='blog1_card_cntn'>
+            <p className='date_card_blog'>20 Dec 2024</p>
+            <h1>Tips from designer <br/> to designer</h1>
+        </div>
+        </div>
+
+    </div>
+
+    <Line />
+
+    <div className='blog4_card'>
+        <div className='blog1_card_cntn'>
+            <p className='date_card_blog'>20 Dec 2024</p>
+            <h1>Favorite quote</h1>
+        </div>
+    </div>
+
+    <Footer />
     
     
 
