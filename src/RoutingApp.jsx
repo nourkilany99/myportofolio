@@ -6,6 +6,7 @@ import ProjectDetails from './Pages/ProjectDetails';
 import ScrollToTop from "./animation/Scrollup";
 import Error404 from "./Pages/Error404";
 import Portfolio from "./Pages/Portfolio";
+import Contact from "./Pages/Contact";
 
 const RoutingApp = () => {
     return ( 
@@ -17,6 +18,7 @@ const RoutingApp = () => {
             <Route path='/Graphic' element={<Graphic />} />
             <Route path='/Graphic/:id' element={<ProjectDetails />} />
             <Route path='/Portfolio' element={<Portfolio />} />
+            <Route path='/Contact' element={<Contact />} />
             <Route path='*' element={<Error404 />} />
         </Routes>
         </BrowserRouter>

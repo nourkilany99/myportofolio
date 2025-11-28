@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+
+.section_hero_n_sub{
+    width: 80%;
+    padding: 4% 10% 2% 10%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.hero_h_n_sub{
+    font-size: 64px;
+    color: var(--txt_color);
+    line-height: 50%;
+
+}
+
+.hero_p_n_sub{
+    width: 40%;
+    font-size: 20px;
+    color: var(--txt_color);
+    text-align: end;
+    font-family: haas_light;
+}

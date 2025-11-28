@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bck_color:#FEF5EA;
+    --txt_color:#2d2d2e;
+    --txt_color_light:#2d2d2e83;
+    --sec_txt_colot:#6C2A9B;
+    --font0:24px;
+    --font1:32px;
+    --font2:40px;
+    --font3:48px;
+}
+
+body{
+    font-family: haas;
+    background-color: var(--bck_color);
+}
+
+@font-face {
+    font-family: haas;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-55Roman-Trial.otf);
+}
+
+@font-face {
+    font-family: haas_light;
+    src: url(../font/haas_font/NeueHaasGrotDispRound-45Light-Trial.otf);
+}
+
+
+.s1_contact_form{
+    width: 40%;
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.infoPart1{
+    width: 100%;
+    display: flex;
+    align-items:end;
+    justify-content: space-between ;
+}
+
+.req1_div{
+    width: 45%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.req1{
+    font-family: haas_light;
+    font-size: 20px;
+    color: var(--txt_color_light);
+}
+
+.lineForm_div{
+    width: 100%;
+    padding: 5% 0;
+
+}
+
+.hr2Form{
+    border: none;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.251);
+    border-radius: 3px;
+    width: 100%;
+}
+
+.req1_div2{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+}

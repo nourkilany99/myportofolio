@@ -3,6 +3,7 @@ import './Portfolio.css';
 import Nav from '../Components/Nav';
 import ScrollStack, { ScrollStackItem } from '../animation/ScrollStack';
 import Footer2 from '../Components/Footer2'
+import Line from '../Common/Line';
 
 
 
@@ -11,9 +12,7 @@ const Portfolio = () => {
 
     <Nav/>
 
-    <div className='line1_div'>
-     <hr className='hr2'></hr>
-    </div>
+    <Line/>
 
     <div className='div1_port' >
     <h1 className='port_page_h'>Nour Elkilany Portfolio</h1>
