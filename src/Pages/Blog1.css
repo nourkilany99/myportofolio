@@ -1,0 +1,13 @@
+
+.sec_letter{
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter{
+    width: 100%;
+    margin-top: -5%;
+}

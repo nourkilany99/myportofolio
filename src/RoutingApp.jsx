@@ -8,6 +8,7 @@ import Error404 from "./Pages/Error404";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import Blog from "./Pages/Blog";
+import Blog1 from "./Pages/Blog1";
 
 const RoutingApp = () => {
     return ( 
@@ -21,6 +22,7 @@ const RoutingApp = () => {
             <Route path='/Portfolio' element={<Portfolio />} />
             <Route path='/Contact' element={<Contact />} />
             <Route path='/Blog' element={<Blog />} />
+            <Route path='/Blog1' element={<Blog1 />} />
 
 
 
